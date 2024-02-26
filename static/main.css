@@ -1,0 +1,50 @@
+.trash-box {
+    width: auto;
+    height: 50px;
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.trash-hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 0 20px red;
+}
+
+.draggable:hover {
+  box-shadow: 0 0 30px yellow;
+  cursor: all-scroll;
+  padding: 0;
+}
+
+.card-body {
+  width: auto;
+  height: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.redGlow {
+  box-shadow: 0 0 40px red !important;
+}
+
+.inputError {
+  text-align: center !important;
+  align-items: center;
+  color: red;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+.user {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
